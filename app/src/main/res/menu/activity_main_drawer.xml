@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perguntar"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Perguntar" />
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Feed" />
+        <item
+            android:id="@+id/nav_busca"
+            android:icon="@drawable/ic_menu_search"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/nav_config"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuração" />
+        <item
+            android:id="@+id/nav_ranking"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ranking" />
+        <item
+            android:id="@+id/nav_minhasBuscas"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Minhas Buscas" />
+    </group>
+
+
+
+</menu>

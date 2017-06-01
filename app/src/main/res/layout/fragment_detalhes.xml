@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufrn.imd.fragmentsexample.RankingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tituloDetalhe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tituloDetalhe"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="0.08" />
+
+        <ImageView
+            android:id="@+id/imagemDetalhe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.47"
+            app:srcCompat="@drawable/side_nav_bar" />
+
+        <TextView
+            android:id="@+id/tagDetalhe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:text="tagDetalhe" />
+
+        <TextView
+            android:id="@+id/categoriaDetalhe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:text="categoriaDetalhe" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/comentarioDetalhe"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="0.46" />
+
+    </LinearLayout>
+</FrameLayout>
